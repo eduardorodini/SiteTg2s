@@ -1,0 +1,244 @@
+/********** common setting **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Roboto&display=swap');
+
+
+
+.subidao  button {
+    background-color: #d9a000;
+    border-radius: 65px;
+    bottom: 50px;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: #000000;
+    cursor: pointer;
+    height: 50px;
+    position: fixed;
+    right: 70px;
+    width: 70px;
+    font-family: 'Contrail One', cursive;
+    
+  }
+  
+
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+    font-family: 'Contrail One', cursive;
+
+}
+
+.row h4{
+    font-family: 'Roboto', sans-serif;
+    color:#000000;
+    font-size: 30px
+
+}
+
+.defunto h1{
+    font-family: 'Contrail One', cursive;
+    color:#000000;
+    font-size: 70px;
+}
+.dinapizza p{
+    font-family: 'Roboto', sans-serif;
+    color:#000000;
+    font-size: 30px
+}
+
+.omilhor h2{
+    font-family: 'Contrail One', cursive;
+    color:#000000;
+    font-size: 80px; 
+
+}
+
+.aline h2{
+    font-family: 'Contrail One', cursive;
+    color:#000000;
+    font-size: 80px;
+
+}
+
+.aline p{
+    font-family: 'Roboto', sans-serif;
+    color:#000000;
+    font-size: 17px
+
+}
+
+.chapeuveio h2{
+    font-family: 'Contrail One', cursive;
+    color:#ffffff;
+    font-size: 80px; 
+}
+
+.chapeuveio p{
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    font-size: 17px
+}
+
+.luis button{
+    color:#ffffff;
+}
+
+.row label{
+    font-family: 'Contrail One', cursive;
+    color:#ffffff;
+    font-size: 20px
+}
+.tg2s{
+    font-family: 'Contrail One', cursive;
+    color:#ffffff;
+    font-size: 20px;
+    /*position: relative;*/
+    text-align: left;
+}
+
+.seg{
+    text-align: left; 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #EEAD2D;
+    color: #192440;
+    width: 150px;
+    font-family: 'Contrail One', cursive; 
+
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #EEAD2D;
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #192440;
+}
+
+#banner {
+    background-size: cover;
+}
+
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+    width: 50%;
+}
+
+#banner header img {
+    max-width: 800px;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 680px;
+}
+
+#feature-first {
+  /*  background: linear-gradient(140deg, #ffffff 55%, #EEAD2D   0); */
+    background-color: #d9a000;
+}
+
+#feature-last {
+    background: #EEAD2D;
+}
+
+/********** price table **********/
+#price-table {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+#price-table__premium {
+    background: #192440;
+    color: #ffffff;
+}
+
+#price-table ul li {
+    padding: 5px 0;
+}
+
+/********** contact **********/
+#contact {
+    background-size: cover;
+}
+
+#contact ul li {
+    padding: 3px 0;
+}
+
+#contact form {
+    color: #ffffff;
+}
+
+#contact form input,
+#contact form textarea {
+    background-color: #EEAD2D;
+    border: 1px solid #EEAD2D;
+    color: #ffffff;
+}
+
+/********** copyright **********/
+#copyright {
+    background: #000000;
+    padding: 2rem 3rem;
+}
+
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+        font-family: 'Contrail One', cursive;
+    }
+}
